@@ -26,4 +26,4 @@ class LuartExecute:
     def broadcast_tx(self, msg, seq):
         tx = self.wallet.create_and_sign_tx(CreateTxOptions(msgs=msg, gas_prices=self.ust_gas, gas_adjustment=self.gas_adj, account_number=self.acc_num, sequence=seq))
         result = self.terra.tx.broadcast_sync(tx)
-        print(result.txhash)
+        print(f"TX Hash: {result.txhash}")
