@@ -10,7 +10,7 @@ minting_price = 89
 nft_mint_contract = 'terra1zfacfuel6ys0p89j3w6qyn0e5nrhccv496rdap'
 mint_count = 3 # number of mints per transaction
 
-public_mint_time = "2022/04/30 00:00:00" # this is their stated time, not your local time
+public_mint_time = "2022/04/30 00:00:00" # in your local time
 send_tx_count = 3 # number of transaction to spam when bot trigger
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
