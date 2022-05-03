@@ -1,5 +1,6 @@
 from config import terra_lcd, wallet_info, mint_info, check_time
 from luart import LuartExecute
+from time import sleep
 
 execute = LuartExecute(terra_lcd(), wallet_info()[0], wallet_info()[1])
 
@@ -28,7 +29,6 @@ def check_mint_time():
         trigger_mint(msg)
 
 def main():
-    from time import sleep
     print(f"\nStarting Countdown")
     while 1:
         check_mint_time()
