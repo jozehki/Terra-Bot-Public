@@ -1,5 +1,8 @@
 # Terra-NFT
+#### 1) Luart-Mint-Bot
+-Replace the variables in config.py
 
+-To start bot, run main.py
 
 # Prerequisite
 Python - https://www.python.org/downloads/
