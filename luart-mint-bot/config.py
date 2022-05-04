@@ -11,7 +11,9 @@ nft_mint_contract = 'terra1zfacfuel6ys0p89j3w6qyn0e5nrhccv496rdap'
 mint_count = 3 # number of mints per transaction
 
 public_mint_time = "2022/04/30 00:00:00" # in your local time
-send_tx_count = 3 # number of transaction to spam when bot trigger
+send_tx_count = 3 # number of transactions to spam when bot trigger
+# ^ make sure wallet only has enough to mint the number of NFTs stated in mint_count,
+# so that send_tx_count will return a failed tx after a successful mint
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 def terra_lcd():
